@@ -1,0 +1,31 @@
+package org.zerock.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import lombok.extern.log4j.Log4j;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
+@Log4j
+public class SampleTxServiceTests {
+
+	@Autowired
+	private SampleTxService txService;
+	
+	@Test
+	public void testLong() {
+		
+		String str = "이로써 오도베르는 토트넘 합류 후 단 5경기(182분)만 뛰고 장기 결장을 하게 됐다. 지난 여름 번리에서 무려 3200만 파운드(약 560억원)을 주고 오도베르를 데려온 토트넘은 허무한 상황이다.\r\n";
+		
+		log.info("길이 : " + str.getBytes().length);
+		
+		txService.addData(str);
+	}
+}

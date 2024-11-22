@@ -1,0 +1,23 @@
+package org.zerock.service;
+
+import org.springframework.stereotype.Service;
+import org.zerock.mapper.Sample1Mapper;
+import org.zerock.mapper.Sample2Mapper;
+
+import lombok.extern.log4j.Log4j;
+
+@Service
+@Log4j
+public class SampleTxServiceImpl implements SampleTxService{
+
+	private Sample1Mapper mapper1;
+
+	private Sample2Mapper mapper2;
+	
+	@Override
+	public void addData(String value) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

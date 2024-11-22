@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Sample1Mapper.java&apos; to &apos;org.zerock.mapper.Sample1Mapper.java&apos;&#x0D;&#x0A;- Original project: &apos;ex04&apos;&#x0D;&#x0A;- Destination element: &apos;org.zerock.mapper.Sample1Mapper.java&apos;&#x0D;&#x0A;- Original element: &apos;org.zerock.mapper.Sample1Mapper.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.zerock.mapper{Sample1Mapper.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.zerock.mapper{Sample1Mapper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1731899003506" units="1" version="1.0"/>
+</session>
